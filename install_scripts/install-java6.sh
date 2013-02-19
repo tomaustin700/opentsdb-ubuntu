@@ -6,3 +6,5 @@ echo 'deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu precise main' | t
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886; \
 apt-get update; \
 apt-get install oracle-java6-installer -y"
+export JAVA_HOME=/usr/lib/jvm/java-6-oracle/
+
